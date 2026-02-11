@@ -30,7 +30,7 @@ src/ ├── app.js ├── config/ ├── controllers/ ├── models/
 2. Install dependencies:
    npm install
 3. Create a `.env` file and add:
-   PORT = 5000
+   PORT = 3000
    MONGO_URL = your_mongodb_connection_string
 4. Run the server:
    npm start
