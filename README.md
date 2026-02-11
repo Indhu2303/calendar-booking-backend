@@ -10,14 +10,13 @@ A Node.js + Express backend application for managing user meetings and calendar 
 - Update meeting
 - Delete meeting
 - User management
-- MongoDB database integration
+- MySQL database integration
 
 ## 🛠️ Tech Stack
 
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
+- MySQL
 - REST APIs
 
 ## 📁 Project Structure
@@ -31,7 +30,10 @@ src/ ├── app.js ├── config/ ├── controllers/ ├── models/
    npm install
 3. Create a `.env` file and add:
    PORT = 3000
-   MONGO_URL = your_mongodb_connection_string
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=your_password
+   DB_NAME=calendar_booking
 4. Run the server:
    npm start
 
