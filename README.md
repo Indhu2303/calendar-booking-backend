@@ -50,6 +50,14 @@ src/ ├── app.js ├── config/ ├── controllers/ ├── models/
 
 ---
 
+🌐 Deployment
+   Deployed on Render.
+   https://calendar-booking-backend-qc5c.onrender.com
+
+🎥 Demo Video
+    https://drive.google.com/file/d/13e1aSZFtK9vIAAoYDdmRwpI7VZ7pR1i8/view?usp=drivesdk
+
+
 ## 👩‍💻 Author
 
 Indhu Sanapathi  
