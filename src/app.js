@@ -1,10 +1,10 @@
 
 const express = require("express");
-const app = express();
+const app = express();   //creates your app
 const sequelize = require("./config/database");
 
 // middleware
-app.use(express.json());
+app.use(express.json()); //tells if someone sends a data, read it as json
 
 app.use((req, res, next) => {
   console.log("➡️ Incoming:", req.method, req.url);
